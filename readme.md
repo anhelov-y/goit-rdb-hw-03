@@ -2,6 +2,7 @@
 
 ## Завдання 1. Виведення всіх даних з таблиць `products` та `shippers` (p1_Anhelov.png і p1_2_Anhelov.png).
 
+```sql
 USE mydb;
 
 SELECT \* FROM products;
@@ -45,3 +46,4 @@ COUNT(\*) AS product_count,
 AVG(price) AS average_price
 FROM products
 GROUP BY supplier_id;
+```
